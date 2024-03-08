@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var audio = document.getElementById('myAudio');
-  audio.play();
-});
+
+var audio = document.getElementById('myAudio');
+audio.play();
+
 
 (() => {
   const urlParams = new URLSearchParams(window.location.search);
